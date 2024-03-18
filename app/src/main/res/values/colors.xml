@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background_toolbar">#3685CA</color>
+    <color name="background_card">#009688</color>
+    <color name="background_card_selected">#142791</color>
+    <color name="background_app">#F8FAF9</color>
+    <color name="background_dialog_confirm">#3097B1</color>
+    <color name="background_dialog">#3C8F3F</color>
+    <color name="background_button">#6E0C28</color>
+    <color name="home_card_ittle_text">#E6CC7C</color>
+    <color name="btn_accent">#E91E63</color>
+    <color name="btn_accept">#39983B</color>
+    <color name="btn_deny">#D63240</color>
+    <color name="dialog_action_add_list">#234F9E</color>
+    <color name="dialog_action_update_name">#ED644C</color>
+    <color name="dialog_action_delete">#E8053B</color>
+    <color name="dialog_action">#437DF1</color>
+    <color name="selected_dog">#6FE7BD</color>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/background_dialog">
+
+    <TextView
+        android:id="@+id/tvGps"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asignar Número de Collar GPS a: "
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerGps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"/>
+    <Button
+        android:id="@+id/btnAssignCollar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asignar"
+        android:textAllCaps="true"
+        android:layout_marginTop="32dp"/>
+
+
+</LinearLayout>

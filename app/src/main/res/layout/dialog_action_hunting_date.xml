@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/background_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvActionHD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="@string/hunting_site"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <RadioGroup
+        android:id="@+id/rgActionHD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbUpdateHunting"
+            android:tag="update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:checked="true"
+            android:buttonTint="@color/dialog_action_update_name"
+            android:text="@string/hunting_update"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rbDeleter"
+            android:tag="delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:buttonTint="@color/dialog_action_delete"
+            android:text="@string/delete_hunting"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnActionOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/dialog_action"
+        android:backgroundTint="@color/dialog_action"/>
+
+
+</LinearLayout>

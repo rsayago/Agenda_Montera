@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/background_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvActionLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="@string/dialog_action_info"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/rgActionLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbCollected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dialog_action_update_name"
+            android:tag="collected"
+            android:text="@string/dialog_action_collected_dog"
+            android:textColor="@color/white"
+            android:checked="true"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbAssignGps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dialog_action_delete"
+            android:tag="gps"
+            android:text="@string/dialog_action_assign_gps"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnActionOptionLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dialog_action"
+        android:text="@string/dialog_action"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
